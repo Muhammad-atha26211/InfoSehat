@@ -1,0 +1,546 @@
+/*awal navbar*/
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+    overflow-x: hidden;
+    background-color: #aaaaaa;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.logo a {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: rgb(4, 235, 119);
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(48, 26, 140);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.order {
+    background: rgb(78, 184, 226);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+/*akhir navbar*/
+
+/*AWAL BANNER*/
+section {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.kolom {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.kolom .deskripsi {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 25px;
+    justify-content: first baseline;
+}
+
+p {
+    font-family: 'comic ms sans';
+    color: rgb(255, 252, 252);
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(6, 174, 240);
+    width: 100%;
+    line-height: 60px;
+}
+
+/*pembungkus gambar banner*/
+.gambar {
+    margin-top: 50px;
+    width: 700px;
+    height: 400px;
+    float: right;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(112, 178, 223, 0.7);
+    transition: transform 0.3s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4px);
+    gap: 40px;
+}
+
+a.reservasi{
+    background: rgb(78, 184, 226);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+}
+
+/*AKHIR BANNER*/
+
+/* Services Section */
+.services {
+    padding: 100px 0;
+    color: #f8f6f5;
+}
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+    }
+
+    .katalog-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .service-card {
+        background-color: #077cad;
+        padding: 30px;
+        border-radius: 8px;
+        text-align: center;
+        transition: var(--transition);
+        box-shadow: var(--shadow);
+        border: 4px solid black;
+    }
+
+    .service-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .sevice-icon {
+
+        width: 100%;
+        height: 180px;
+        border-radius: 80px;
+        margin-bottom: 20px;
+        color: var(--secondary);
+        font-size: 3rem;
+    }
+
+    .service-card h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5 rem;
+        color: black;
+        margin-bottom: 15px;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .service-card p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 20px;
+        background-color: transparent;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-bottom: 20px;
+ 
+    }
+
+/* FOOTER */
+
+.footer-bottom {
+    scroll-margin-top: 100px;
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    left: 50%;
+    right: 50%;
+}
+
+.footer {
+    background-color: rgb(28, 46, 140);
+    color: yellow;
+    padding: 40px 0 20px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100% !important;
+    height: auto;
+    margin: 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    column-gap: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100vw !important;
+    margin: auto;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h2,
+.footer-column h1 {
+    color: yellow;
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: 'Times New Roman';
+}
+
+.footer-column h2 {
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+.footer-column h1 {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+/*contact*/
+.contact {
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.contact-item a {
+    color: #9dc5f3;
+    text-decoration: none;
+}
+
+/*about*/
+.about {
+    padding: 0 0px;
+}
+
+.deskripsi-footer {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 3px;
+}
+
+.social-icons a {
+    width: 5px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #f0960e;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/*opening hours*/
+
+.hours {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hours p {
+    font-size: 20px;
+    color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+.reserved {
+    font-size: 24px;
+    color: yellow;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: separate; 
+    border-spacing: 15px;
+}
+
+/* BOOK A TABLE */
+.book-table {
+    width: 100% !important;
+    padding: 15px 0;
+    display: block !important;
+}
+
+.book-container {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 50px !important;
+    align-items: flex-start;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    box-sizing: border-box;
+}
+
+.book-title {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.book-head {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 48px;
+    color: #222222;
+    font-weight: 600;
+    text-align: center;
+}
+
+.book-form {
+    flex: 1 1 500px !important;
+    width: 550px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+}
+
+.book-form input,
+.book-form select {
+    width: 100% !important;
+    padding: 14px 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: #333333;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.book-form input:focus,
+.book-form select:focus {
+    border-color: #f0960e;
+}
+
+.book-form button.submit {
+    background-color: #fbd341;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    align-self: center;
+}
+
+.book-form button.submit:hover {
+    background-color: #e0b728;
+}
+
+.book-container iframe {
+    flex: 1;
+    min-width: 360px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+
+/* --- SECTION KOMENTAR REKANAN --- */
+.services {
+    padding: 60px 0;
+    display: block;
+}
+
+.services .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-title {
+    font-family: 'Caveat' cursive;
+    font-size: 48px;
+    color: #222222;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.servis-card {
+    background-color: #2b303a;
+    padding: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.servis-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #dddddd;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.servis-card h3 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.service-card span {
+    font-size: 13px;
+    color: #aaaaaa;
+    font-family: Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-komentar {
+    width:90%;
+    margin: 20px auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+#home {
+    scroll-margin-top: 130px;
+}
+
+#menu {
+    scroll-margin-top: 90px;
+}
