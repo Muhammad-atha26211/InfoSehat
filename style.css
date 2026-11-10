@@ -542,5 +542,9 @@ a.reservasi{
 }
 
 #menu {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 110px;
+}
+
+#consultation {
+    scroll-margin-top: 110px;
 }
